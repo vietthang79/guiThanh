@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,10 @@
     <link rel="stylesheet" href="../css/payment.css">
 
     <!-- Thêm thư viện Font Awesome để sử dụng biểu tượng giỏ hàng -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 </head>
+
 <body>
     <nav>
         <div class="container_navbar">
@@ -106,10 +108,10 @@
             </div>
 
             <div class="cart-button">
-                <button  class="cart-icon">
-                    <a href = "../html/myCart.html">
-                    <img class="ic_cart" src="../images/cart_ic.svg" alt="ic_cart" width="45px" height="25px">
-                    <span class="cart-items">3</span></a>
+                <button class="cart-icon">
+                    <a href="../html/myCart.html">
+                        <img class="ic_cart" src="../images/cart_ic.svg" alt="ic_cart" width="45px" height="25px">
+                        <span class="cart-items">3</span></a>
                 </button>
                 <button class="list-button">
                     <img class="ic_cart" src="../images/icon _book_.svg" alt="ic_cart" width="45px" height="25px">
@@ -125,53 +127,49 @@
 
 
     </nav>
-    
-    <div class="center-container">
-        <div class="body_container">
-            <div class="container">
-           
-                <div class="image">
-                    <img src="../images/payment.svg" height="150px" width="150px" alt="payment" />
-                </div>
-                <div class="text1">
-                    <p>Your payment is successfully</p>
-                </div>
-                <div class="text2">
-                    <p>Thank you for choosing us.</p>
-                </div>
-                <div class="highlight"></div>
-                  
-        
-                <div class="container1">
-                    <div class="text3">
-                        <h4>Payment details</h4>
-                        <hr class="thanhngang"></hr>
-                    </div>
-                    <div class="text4">
-                        <p>Oder no:</p>
-                    </div>
-                    <div class="text5">
-                        <p>Oder date: 02/06/2022</p>
-                    </div>
-                    <div class="text6">
-                        <p>Total:</p>
-                    </div>
-                    <div class="text7">
-                        <p>#123456789</p>
-                    </div>
-                    <div class="text8">
-                        <p>Oder date: 02/06/2022</p>
-                    </div>
-                    <div class="text9">
-                        <p>$3000</p>
-                    </div>    
-                      
-                </div>
-                <button class="button2">Back to home</button>
+    <div class="container">
+        <div class="card">
+            <div class="image">
+                <img src="../images/paymen.svg" height="150px" width="150px" alt="payment" />
             </div>
+            <div>
+                <p class="text_success"> Your payment is successfully</p>
+                <p class="text_thanks">Thank you for choosing us.</p>
+            </div>
+            <div class="card2">
+                <div>
+                    <p class="text_tittle">Payment details</p>
+                </div>
+                <div class="line_bottom_right"></div>
+                <div>
+                    <div style="margin-bottom: 10px;" class="text1">
+                        <span class="oderNo">Oder no: </span>
+                        <span style="margin-left: 55px;" class="oderNo">#123456789</span>
+
+                    </div>
+                    <div style="display: flex;margin-bottom: 10px;">
+                        <div class="text_center">
+                            <span class="oderNo">Oder date: 02/06/2022 </span>
+
+                        </div>
+                        <div class="text_center">
+                            <span style="margin-left: 35px;" class="oderNo">Oder date: 02/06/2022</span>
+
+                        </div>
+                    </div>
+
+
+                    <div class="text1">
+                        <span class="oderNo">Total: </span>
+                        <span style="margin-left: 85px;"  class="oderNo">$3000</span>
+
+                    </div>
+                </div>
+            </div>
+
+            <button class="button2">Back to home</button>
         </div>
     </div>
-
-
 </body>
+
 </html>
